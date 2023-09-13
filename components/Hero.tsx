@@ -11,9 +11,9 @@ function Hero() {
     }
   return (
     <div className='hero'>
-        <div className='flex-1 pt-36 padding-x'>
+        <div className='flex-1 pt-36 padding-x m-5'>
             <h1 className='hero__title'>
-                Find and book a beautiful car using our amazing website - quick and easily!
+                Find and book a car using our fabolous website - quick and easily!
             </h1>
             <p className='hero__subtitle'>Enjoy your booking experience with seemless quick process.</p>
 
@@ -26,13 +26,16 @@ function Hero() {
             />
         </div>
         <div className='hero__image-container'>
+            
             <div className='hero__image'>
-
-                <Image src="/hero.png" alt='hero' 
-                fill className='object-contain'/>
-                <div className='hero__image-overlay'/>
+            
+            <Image src="/hero.png" alt='hero' 
+            fill className='object-contain'/>
             </div>
+                <div className='hero__image-overlay'/>
+                
         </div>
+        
     </div>
   )
 }
